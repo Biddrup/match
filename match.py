@@ -4,7 +4,7 @@ nameletter = re.compile(r'[biddrupBIDDRUP]')
 b = nameletter.findall('My name is Biddrup Kumar Mallick')
 
 escnameletter = re.compile(r'[^biddrupBIDDRUP^]')
-c = escnameletter = escnameletter.findall('My name is Biddrup Kumar Mallick')
+c = escnameletter.findall('My name is Biddrup Kumar Mallick')
 
 #'list' object has no attribute 'group'
 #Can't convert 'list' object to str implicitly

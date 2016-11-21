@@ -1,3 +1,5 @@
+#Will do some revision within a short time
+
 import re
 
 nameletter = re.compile(r'[biddrupBIDDRUP]')
